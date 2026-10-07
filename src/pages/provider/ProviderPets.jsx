@@ -22,7 +22,7 @@ const ProviderPets = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  const serverUrl = "http://localhost:5000";
+  const serverUrl = "https://animal-adoption-backend-1.onrender.com";
 
   // Pagination States
   const [currentPage, setCurrentPage] = useState(1);
